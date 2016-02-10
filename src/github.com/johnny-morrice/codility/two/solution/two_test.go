@@ -4,7 +4,7 @@ import (
     "testing"
 )
 
-func SolutionTest(t *testing.T) {
+func TestSolution(t *testing.T) {
     orig := []int{3, 8, 9, 7, 6}
     expect := []int{9, 7, 6, 3, 8}
     actual := Solution(orig, 3)
